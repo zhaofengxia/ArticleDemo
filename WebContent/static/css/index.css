@@ -1,0 +1,144 @@
+.banner {
+	height: 360px ;
+    overflow: hidden ;
+}
+
+.banner {
+	height: 360px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.banner .content {
+	width: 1060px;
+    height: 360px;
+    margin: 20px auto;
+    position: relative;
+   
+}
+
+.banner ul li img {
+	width: 1024px ;
+	height: 360px ;
+}
+
+.banner .content ul{
+	width: 10000px;
+	margin-left: -1024px;
+}
+
+.banner_left, .banner_right{
+	width: 160px;
+    height: 360px;
+    display: inline-block;
+    position: absolute;
+    background: #7fa5ea;
+    left: -160px;
+    top: 0;
+    opacity: 0.6;
+}
+
+.banner_right{
+    width: 200px;
+    height: 360px;
+    display: inline-block;
+    position: absolute;
+    background: #7fa5ea;
+    left: 1023px;
+    top: 0;
+    opacity: 0.6;
+}
+
+.btn_left ,.btn_right{
+	display: inline-block;
+	width: 21px;
+	height: 150px;
+	background: url(../img/banner_tb.png) no-repeat;
+	position: absolute;
+	left: 120px;
+	top: 112px;
+	opacity: 0;
+	transition: all ease 0.6s;
+	cursor: pointer;
+}
+
+.btn_right{
+	background-position: -29px 0;
+	position: absolute;
+	left: 16px;
+	top: 112px;
+}
+
+.banner .content:hover .btn_left{
+	opacity: 1;
+}
+
+.banner .content:hover .btn_right{
+	opacity: 1;
+}
+
+.category {
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+	
+.category .title {
+	margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+	text-indent:1em;
+	font-size:18px;
+	color:#666;
+}
+.category .items {
+	margin-left:10px;
+}
+.category .items .item {
+    width: 230px;
+    height: 320px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.category .items .item:hover {
+	transform:scale(1.05);
+}
+
+.category .items .item div {
+	text-align:center;
+}
+
+.item-banner {
+	background: #666;
+    color: #FFF;
+}
+
+.item-header {
+	font-size: 12px;
+    line-height: 52px;
+}
+
+.item-name {
+    font-size: 22px;
+    line-height: 74px;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow: ellipsis;	
+}
+
+.item-author {
+    font-size: 14px;
+    text-indent: 7em;
+    padding-bottom: 70px;
+}
+
+.item-description {
+	background: #eee;
+    height: 104px;
+    line-height: 76px;
+    text-indent: 3em;
+    font-size: 12px;
+}
